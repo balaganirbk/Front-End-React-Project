@@ -1,0 +1,39 @@
+
+.container{
+    border: px solid #000;
+    background-color: lightgray
+}
+
+.logo{
+    transition: width 0.5s ease-in-out; 
+    width: 100px; /* Default width */
+}
+.logo :hover{
+    width: 120px; /* Width on hover */
+}
+.navitems{
+    display: flex;
+    justify-content: space-between;
+  
+    padding: 5px;
+    margin-right: 50px;
+    list-style: none;
+}
+.rightside{
+    display: flex;
+    padding: 5px;
+
+}  
+
+.rightside li{
+    padding: 5px;
+    margin: 10px;
+    margin-top: 40px;
+    
+}
+
+.rightside li :hover{
+    background-color: lightgreen;
+    width: 110%;
+ 
+}
